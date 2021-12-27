@@ -1,0 +1,60 @@
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.phonebtn{
+    margin: 9px;
+    margin-left: 56px;
+    border-style: none;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    width: 73%;
+    border-radius: 10px;
+    border: 1px solid black;
+    
+}
+#authblock .authContent h3{
+    text-align: center;
+    margin-top: 20px;
+}
+#authblock .authContent p{
+    margin-left: 200px;
+}
+.form-group input{
+    margin-left: 550px;
+    width: 20%;
+}
+.phonebutton{
+    margin-left: 650px;
+    margin-top: 20px;
+    height: 34px;
+    width: 93px;
+    border: 1px solod black;
+}
+p{
+    margin-left: 515px;
+    margin-top: 20px;
+}
+
+.googlebtn{
+
+    margin-left: 56px;
+    border-style: none;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    width: 73%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.recaptcha-container{
+    margin-left: 534px;
+    margin-top: 40px;
+}
+

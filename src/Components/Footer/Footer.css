@@ -1,0 +1,72 @@
+
+.footerBlock{
+    background-color: #fffcfc;
+    flex-basis: 70%;
+    margin-top: 30px;
+}
+
+.footerBlock article {
+    display: flex;
+    height: 52vh;
+    
+}
+.footerBlock article svg{
+     fill: rgb(0, 0, 0);
+  width: 150px;
+ 
+}
+.footerBlock article div{
+    color: rgb(0, 0, 0);
+}
+
+.footmenu{
+    padding: 40px 100px;
+    flex-basis: 10%;
+}
+
+.footmenu1{
+    padding: 40px 20px;
+    flex-basis: 20%;
+}
+
+.footmenu1 ul li{
+    list-style: none;
+    padding: 10px ;
+}
+
+.footmenu2{
+    padding: 40px 80px;
+    flex-basis: 20%;
+}
+.footmenu2 ul li{
+    list-style: none;
+    padding: 10px ;
+}
+
+
+.footmenu3{
+    padding: 40px 80px;
+    flex-basis: 20%;
+}
+.footmenu3 ul li{
+    list-style: none;
+    padding: 10px ;
+}
+
+
+.sideBlock{
+    padding: 40px 10px;
+    font-size: 30px;
+    /* flex-basis: 30%; */
+}
+
+.endBlock ul li{
+    color: rgb(3, 3, 3);
+    
+}
+.endBlock ul{
+    display: flex;
+}
+/* .insta{
+    background: black;
+} */

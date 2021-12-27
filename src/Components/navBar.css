@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Itim&family=Montserrat&family=Open+Sans&family=Roboto:ital,wght@1,300&family=Varela+Round&family=Waterfall&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    /* background-color: black; */
+}
+.HeaderBlock{
+    background  :2px #efefef;
+}
+.HeaderBlock article{
+   width: 90%;
+    display: flex;
+    /* text-align: center; */
+    margin: 0 auto;
+    align-items: center;
+    height: 65px;
+    
+}
+.leftBlock img{
+    height: 100px;
+    width: 250px;
+}
+.HeaderBlock article .leftBlock{
+     flex-basis: 15%;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.rightBlock{
+    color: white;
+}
+.HeaderBlock article .rightBlock{
+  flex-basis: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.rightBlock ul{
+    display: flex;
+    padding: 15px;
+    margin: 10px;
+    
+}
+.rightBlock ul li{
+    margin: 10px;
+    list-style: none;
+    
+}
+.rightBlock ul li a{
+    text-decoration: none;
+    color: crimson;
+    font-size: 18px;
+   /* font-family:cursive; */
+    font-size: x-large;
+    font-weight:500;
+    /* border:2px solid crimson; */
+    border-radius: 16px;
+    padding: 5px;
+}
+.rightBlock ul li a:hover{
+    background: crimson;
+    color: white;
+}

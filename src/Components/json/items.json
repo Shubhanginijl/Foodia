@@ -1,0 +1,104 @@
+{
+  "food": [
+    {
+      "name": "chicken noodles",
+      "image": "https://hips.hearstapps.com/ghk.h-cdn.co/assets/16/38/1474395998-ghk-0216-comfortfoodcover-meatballs.jpg?crop=0.856xw:0.571xh;0.0224xw,0.296xh&resize=640:*",
+      "price": "Rs.200"
+    },
+    {
+      "name": "gobi",
+      "image": "https://media.self.com/photos/57d8952946d0cb351c8c50c9/1:1/w_855,h_855,c_limit/DELICIOUS-1-POT-Lentil-and-Black-Bean-Chili-Smoky-hearty-PROTEIN-and-fiber-packed-vegan-glutenfree-lentils-chili-healthy-recipe2.jpg",
+      "price": "Rs.350"
+    },
+    {
+      "name": "frence fries",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP7yN4sLAJKa-7LTBQMJUlZa0ClZYWp4mXDw&usqp=CAU",
+      "price": "Rs.300"
+    },
+    {
+      "name": "porato",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqEF3RWOZatDlvqCrAXQ0dOiYfw_eA5AMa_A&usqp=CAU",
+      "price": "Rs.100"
+    },
+    {
+      "name": "chapathi",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLVVFf3ItqnPPJyxkTC6HXPsgconFKVQP7gQ&usqp=CAU",
+      "price": "Rs.80"
+    },
+    {
+      "name": "oani puri",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHn2Yr5Lss0KZvbNMARFW4FvlROPjpwt2hwQ&usqp=CAU",
+      "price": "Rs.120"
+    },
+    {
+      "name": "jilebi",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb92EQqo4fwGx0B_EnRebSw_XBuwU8xugAjw&usqp=CAU",
+      "price": "Rs.55"
+    },
+    {
+      "name": "polii",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1oqfZbtsIMBTjRIZr0NkGaH4jJBv4s4l_zA&usqp=CAU",
+      "price": "Rs.111"
+    },
+    {
+      "name": "special chiken",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh2O-YmojFkUfZDsu38SiZE54tt6Bn0kTvUQ&usqp=CAU",
+      "price": "Rs.250"
+    },
+    {
+      "name": "noodle",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmYptXIdXzlRS259D5UFgnS8uGilwU75IgJg&usqp=CAU",
+      "price": "Rs.110"
+    },
+    {
+      "name": "egg rice",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCNy-Y71cWkJXl67EIlWZxo06eSkzv9PlX1Q&usqp=CAU",
+      "price": "Rs.55"
+    },
+    {
+      "name": "full meals",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6_S8yCNMc4YHPVe9edQsoy2utrx_XMRW14w&usqp=CAU",
+      "price": "Rs.70"
+    },
+    {
+      "name": "gobi",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFCUPfKOWPQsFgIODjgQCOjwSlMxNklwrH3Q&usqp=CAU",
+      "price": "Rs.110"
+    },
+    {
+      "name": "burger",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNeal5o1XAn4Pkc_mC7DVPadh10-MtjZQtxQ&usqp=CAU",
+      "price": "Rs.136"
+    },
+    {
+      "name": "veg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBiHZj085d4M2h9T-q8D8cpBfAhoolV9q9mQ&usqp=CAU",
+      "price": "Rs.145"
+    },
+    {
+      "name": "egg",
+      "image": "https://6d1bdf0e0edb084eae10-5bfabe5484726969ac662c6d377e2f3c.ssl.cf2.rackcdn.com/themes/img/north-indian-food3.jpg",
+      "price": "Rs.149"
+    },
+    {
+      "name": "roti",
+      "image": "https://image.shutterstock.com/image-photo/group-indian-food-north-thali-260nw-253963819.jpg",
+      "price": "Rs.200"
+    },
+    {
+      "name": "veg-meal",
+      "image": "https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/content6079.jpg",
+      "price": "Rs.290"
+    },
+    {
+      "name": "panner-currey",
+      "image": "https://media.gettyimages.com/photos/indian-food-picture-id626591752?s=612x612",
+      "price": "Rs.199"
+    },
+    {
+      "name": "pano-puri",
+      "image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201708/dish-story_647_081417052301.jpg?size=1200:675",
+      "price": "Rs.50"
+    }
+  ]
+}
