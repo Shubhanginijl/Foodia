@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom';
 import { Phone } from '../Redux/Action';
 import { toast } from 'react-toastify';
-
+// import "./home.css";
 const PhoneAuth = () => {
     let dispatch=useDispatch()
     let navigate=useNavigate()
@@ -46,10 +46,10 @@ const PhoneAuth = () => {
                     onChange={handleChange}
                   />
                 </div>
-                <div id="recaptcha-container"></div>
+                <div id="recaptcha-container" style={{marginLeft:"540px",marginTop:"20px"}}></div>
 
                 <div className="form-group btn-group">
-                  <button className="phonebutton" onClick={handleSubmit}>
+                  <button className="phonebutton" style={{background:"crimson",borderRadius:"20px",color:"white"}} onClick={handleSubmit}>
                     Send
                   </button>
                 </div>

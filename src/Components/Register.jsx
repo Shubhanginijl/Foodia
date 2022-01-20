@@ -49,16 +49,7 @@ const Register = () => {
     <section className="registerForm">
       <article className="card1 ">
         <div>
-          <h3
-            style={{
-              textAlign: "center",
-              fontSize: "20px",
-              marginTop: "80px",
-              color: "white",
-              font: "40px",
-              paddingTop:"40px"
-            }}
-          >
+          <h3>
             SignUp Form
           </h3>
           <div className=" container col-md-4">

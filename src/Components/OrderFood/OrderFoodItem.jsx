@@ -1,30 +1,22 @@
 import React, { Fragment, useState } from "react";
-import "./orderfood.css";
 import firebase from "../../Firebase";
 import { toast } from "react-toastify";
-
 import { useDispatch } from 'react-redux';
 import { uploadData } from "../../Redux/Action";
-
-let genre = ["Blues", "Classical", "Country", "Disco", "HipHop", "Jazz"];
-
+import "./orderfood.css";
 const OrderFoodItem = () => {
   let dispatch = useDispatch();
   let [state, setState] = useState({
-    loading: "false",
     audio_poster: "",
-    barStatus: "false",
-    progress: 0,
+    price:"",
+    category:"",
     audio_title:""
   });
   let {
-    
     audio_title,
-    loading,
-    barStatus,
-    progress,
-    audio_poster,
-    
+    price,
+    category,
+    audio_poster,   
   } = state;
   let [poster, setPoster] = useState("");
   let [AudioFile, setAudioFile] = useState("");
@@ -37,19 +29,11 @@ const OrderFoodItem = () => {
   let handlePoster = e => {
     setPoster({ [e.target.name]: e.target.files[0] });
   };
-  let handleAudioFile = e => {
-    setAudioFile({ [e.target.name]: e.target.files[0] });
-  };
-  let handleSubmit = async e => {
+  let handleSubmit = e => {
     e.preventDefault();
     try {
-      setState({ loading: true });
-
-     
-     
-dispatch(uploadData(poster))
-
-          toast.success("sucessfully audio file is uploaded");
+          dispatch(uploadData(poster,state))
+          toast.success("sucessfully Food item is uploaded");
         }
       
     catch (error) {
@@ -58,16 +42,16 @@ dispatch(uploadData(poster))
     //   setState({ loading: false });
   };
 
-  let ProgressTemplate = () => {
-    return (
-      <progress value={progress} min={0} max={100}>
-        {progress}
-      </progress>
-    );
-  };
+  // let ProgressTemplate = () => {
+  //   return (
+  //     <progress value={progress} min={0} max={100}>
+  //       {progress}
+  //     </progress>
+  //   );
+  // };
   return (
     <section id="AudioBlock" >
-      <div id="progressSection">
+      {/* <div id="progressSection">
         {barStatus === true ? (
           <>
             <span>
@@ -78,7 +62,7 @@ dispatch(uploadData(poster))
         ) : (
           ""
         )}
-      </div>
+      </div> */}
       <article>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
@@ -95,7 +79,20 @@ dispatch(uploadData(poster))
               onChange={handleChange}
             />
           </div>
-       
+          <div className="form-group">
+            <label htmlFor="title">
+              Price
+            </label>
+            <input
+              type="text"
+              className="form-control"
+              name="price"
+              placeholder="Enter Food price"
+              required
+              value={price}
+              onChange={handleChange}
+            />
+          </div>
     
           <div className="form-group" style={{ color: "white" }}>
             <label htmlFor="audio_poster"> Poster</label>
@@ -106,20 +103,17 @@ dispatch(uploadData(poster))
               onChange={handlePoster}
             />
           </div>
+         <div>
+         <select name="category" id="category"  value={category} onChange={handleChange}>Food Category
+              <option value="veg">Veg</option>
+              <option value="non-veg">Non-Veg</option>
+            </select>
+         </div>
      
           <div style={{ position: "relative" }}>
             <button
               className="btn"
               name="progress"
-            //   style={{
-            //     border: "1px solid white",
-            //     borderRadius: "13px",
-            //     width: "30mm",
-            //     background: "#ff3333 ",
-            //     height: "40px",
-            //     position: "absolute",
-            //     top: "8mm",
-            //   }}
             >
               Submit
             </button>

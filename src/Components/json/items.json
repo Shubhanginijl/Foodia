@@ -1,8 +1,8 @@
 {
   "food": [
     {
-      "name": "chicken noodles",
-      "image": "https://hips.hearstapps.com/ghk.h-cdn.co/assets/16/38/1474395998-ghk-0216-comfortfoodcover-meatballs.jpg?crop=0.856xw:0.571xh;0.0224xw,0.296xh&resize=640:*",
+      "name": "pani puri",
+      "image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201708/dish-story_647_081417052301.jpg?size=1200:675",
       "price": "Rs.200"
     },
     {
@@ -96,8 +96,8 @@
       "price": "Rs.199"
     },
     {
-      "name": "pano-puri",
-      "image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201708/dish-story_647_081417052301.jpg?size=1200:675",
+      "name": "chicken-noodles",
+      "image": "https://hips.hearstapps.com/ghk.h-cdn.co/assets/16/38/1474395998-ghk-0216-comfortfoodcover-meatballs.jpg?crop=0.856xw:0.571xh;0.0224xw,0.296xh&resize=640:*",
       "price": "Rs.50"
     }
   ]

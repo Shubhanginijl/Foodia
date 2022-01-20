@@ -7,7 +7,7 @@ const Home = () => {
       <>
         <section>
           <div className="image1">
-            <img src="slide2.jpg" alt="slde1" />
+            <img src="pizza.jpg" alt="slde1" />
             <div>
               <h1 className="toptext">
                 YOU CAN'T BUY HAPPINESS <br />
@@ -18,7 +18,7 @@ const Home = () => {
                     alt="foodlove"
                     className="foodlove"
                   /> */}
-                  <form>
+                  <form className='block'>
               <span className="icon1">
                 <i className="fas fa-map-marker-alt"></i>
               </span>
@@ -36,10 +36,10 @@ const Home = () => {
                 className="tableBlock2"
               />
               <button className="btn1">
-                <a href="#">Find Food</a>
+                <a href="/orderedlist">Find Food</a>
               </button>
               <div className="altSignIn1">
-                <a href="#" >Sign In</a> for your recent addresses
+                <a href="/signin" >Sign In</a> for your recent addresses
               </div>
             </form>
                 </div>

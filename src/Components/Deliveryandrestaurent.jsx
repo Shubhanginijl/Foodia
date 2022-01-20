@@ -11,7 +11,7 @@ const Deliveryandrestaurent = () => {
         style={{ display: "flex", flexWrap: "wrap", marginLeft: "25mm" }}
       >
         <div>
-          <Link to="/orderfooditem">
+          <Link to="/orderedlist">
             <img
               src="Food-Delivery-removebg.png"
               alt="drop"

@@ -13,7 +13,7 @@ import PhoneAuth from "./Components/PhoneAuth";
 import Restaurant from "./Components/Restaurant";
 import OrderFoodItem from "./Components/OrderFood/OrderFoodItem";
 import OrderedList from "./Components/OrderFood/OrderedList";
-import Footer from './Components/Footer/Footer';
+// import Footer from './Components/Footer/Footer';
 
 
 
@@ -27,13 +27,14 @@ const App = () => {
       <ToastContainer />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/signin" element={<Signin />} />
+        <Route path="/signin" element={<Signin />} />  
         <Route path="/signup" element={<Register />} />
         <Route path="/forgotpassword" element={<Resetpassword />} />
         <Route path="/phoneauth" element={<PhoneAuth />} />
         <Route path="/goto" element={<Restaurant />} />
         <Route path="/orderfooditem" element={<OrderFoodItem />} />
         <Route path="/orderedlist" element={<OrderedList />} />
+        {/* <Route path="/fetchitem" element={<FetchItem/>} /> */}
         {/* <Route path="/footer" element={<Footer/>} /> */}
       </Routes>
     </Router>

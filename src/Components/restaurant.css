@@ -3,20 +3,22 @@
     padding: 0;
     margin: 0;
 }
-.image-container{
-    display: flex;
-    justify-content: space-between;
+.maincontainer{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
 }
-
-.img1{
-    width: 100px;
-    height: 100px;
+.maincontainer article .img1{
+   width: 20px;
+   height:40px;
 }
-.img2{
-    width: 100px;
-    height: 100px;
-}
-.img3{
-    width: 100px;
-    height: 100px;
-}
+/* fetch data */
+.home{
+    margin:0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 160px;
+    /* padding-top:80px; */
+  }

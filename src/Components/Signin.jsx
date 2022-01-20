@@ -31,17 +31,17 @@ const Signin = () => {
   };
   return (
     <>
-      <section>
+      <section className="loginForm">
         <article className="sign">
           <div className="division mt-4">
-            <h1 style={{ textAlign: "center", color: "black" ,paddingTop:"50px"}}>Login here </h1>
-            <div className=" container col-md-4 mt-4">
-              <form onSubmit={handleSubmit}>
+            <h1 >Login here </h1>
+            <div className=" container mt-4">
+              <form id="form" onSubmit={handleSubmit}>
                 <div className="mb-1">
                   <label
                     htmlFor="exampleInputEmail1"
                     className="form-label"
-                    style={{ color: "black" }}
+                    style={{ color: "black",fontWeight:"bold" }}
                   >
                     Email address
                   </label>
@@ -66,7 +66,7 @@ const Signin = () => {
                   <label
                     htmlFor="exampleInputPassword1"
                     className="form-label"
-                    style={{ color: "black" }}
+                    style={{ color: "black",fontWeight:"bold" }}
                   >
                     Password
                   </label>

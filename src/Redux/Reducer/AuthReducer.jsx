@@ -5,7 +5,8 @@ let InitialState = {
   phone: [],
   google: [],
   cartadd: [0],
-  cartremove: [],
+  uploadcontent:[],
+  fetch:[],
 };
 
 
@@ -44,14 +45,24 @@ const AuthReducer = (state=InitialState,action) => {
          ...state,
          cartadd: parseInt(action.payload) + parseInt(state.cartadd),
        };
-     case "CARTDECREMENT":
-       return {
+    //  case "CARTDECREMENT":
+    //    return {
+    //      ...state,
+    //      cartremove: parseInt(action.payload) - parseInt(state.cartremove),
+    //    };
+     case "UPLOAD":
+       return{
          ...state,
-         cartremove: parseInt(action.payload) - parseInt(state.cartremove),
-       };
+         uploadcontent:action.payload,
+       }
+      case "FETCHDATA":
+        return{
+          ...state,
+          fetch:action.payload,
+        }
      default:
        return state;
-   }
+      }  
 }
 
 export default AuthReducer;

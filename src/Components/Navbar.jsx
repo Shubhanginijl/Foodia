@@ -1,8 +1,14 @@
-import React from 'react'
+import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 import "./navBar.css";
 
 const Navbar = () => {
+  let BagVal = useSelector(state=>state.AuthReducer. cartadd)
+  let [state, setState] = useState(false);
+  // let dropdown = () => {
+  //   setState(!state);
+  // };
     return (
       <section className="HeaderBlock">
         <article>
@@ -22,6 +28,16 @@ const Navbar = () => {
               <li>
                 <a href="/signin">Login</a>
               </li>
+              <li style={{ fontSize: "18px" ,color:"crimson",marginTop:"17px" }}>
+              <i className="fal fa-shopping-bag">
+                <sup>
+                  <span
+                    className="badge badge-secondary"
+                    style={{ fontSize: "15px" ,color:"crimson" }}
+                  >{BagVal}</span>
+                </sup>
+              </i>
+            </li>
               {/* <li>
                 <a href="/">orders</a>
               </li> */}
